@@ -1,1 +1,36 @@
 /*  your css code here. If applicable */
+body{
+	background-color: rgb(204, 204, 204);
+}
+
+#songs{
+	width:700px;
+	height:140px;
+	border:3px solid black;
+	border-radius:10px;
+	background-color: rgb(255, 255, 255);
+	line-height:22px;
+}
+#videos{
+	width:700px;
+	height:500px;
+	border:3px solid black;
+	border-radius:10px;
+	background-color: rgb(255, 255, 255);
+	display:flex;
+	flex-direction:column;
+}
+.player_one{
+	padding:10px;
+	background-color: rgb(255, 255, 255);
+	border-radius:20px;
+}
+.player_two{
+	width:100%;
+	padding:10px;
+	box-sizing:border-box;
+	align-items:bottom;
+	background-color: rgb(255, 255, 255);
+	border-radius:20px;
+}
+
